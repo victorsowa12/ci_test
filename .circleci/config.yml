@@ -17,6 +17,6 @@ jobs:
             cd ../demos/STM32/RT-STM32F103-STM3210E_EVAL-FATFS-USB
             make
       - store_artifacts:
-          path: ./demos/STM32/RT-STM32F103-STM3210E-EVAL-FATFS-USB/build/ch.elf
+          path: ./demos/STM32/RT-STM32F103-STM3210E_EVAL-FATFS-USB/build/ch.elf
 
           
