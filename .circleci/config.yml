@@ -1,10 +1,10 @@
-version: 2
+version: 2.1
 jobs:
   build:
     docker:
       - image: debian:stretch
       
-     steps:
+    steps:
       - checkout
       
       - run:
@@ -13,5 +13,5 @@ jobs:
           
       - run:
           name: Print Current Time
-          coomand: date
+          command: date
           
