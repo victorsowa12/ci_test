@@ -2,47 +2,22 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: circleci/python:3.6.9-stretch
+      - image: continuumio/miniconda3
       
     steps:
       - checkout
       - run:
-          name: Install apt packages
-          command: 'sudo apt install p7zip-full gcc-arm-none-eabi binutils-arm-none-eabi'
-      - run:
-          name: Build Demo
+          name: Install dependencies
           command: |
-            cd ext
-            7za x fatfs-0.14_patched.7z -aoa
-            cd ../demos/STM32/RT-STM32F103-STM3210E_EVAL-FATFS-USB
-            make
-      - store_artifacts:
-          path: ./demos/STM32/RT-STM32F103-STM3210E_EVAL-FATFS-USB/build/ch.elf
-  
-  unit-test:
-    docker:
-      - image: circleci/python:3.6.9-stretch
-    steps:
-      - checkout
-      - run:
-          name: Install apt packages
-          command: 'sudo apt install libc6-dev-i386'
-      - run:
-          name: Build Unit Tests
-          command: |
-            cd test/rt/testbuild
-            make
-      - run:
-          name: Run Unit Tests
-          command: |
-            ./test/rt/testbuild/ch
+            conda create -n xMoonJelly_fw
+            source activate xMoonJelly_fw
+            conda env update -f environment.yml
 
 workflows:
   version: 2.1
   build_and_test:
     jobs:
       - build
-      - unit-test
 
 
           
