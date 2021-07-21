@@ -6,27 +6,16 @@ jobs:
       
     steps:
       - checkout
-      
       - run:
-          name: Greeting
-          command: echo Hello World!
-          
-      - run:
-          name: Print Current Time
-          command: date
-      
-      - run:
-          name: Install apt dependencies
-          command: sudo apt install p7zip-full gcc-arm-none-eabi binutils-arm-none-eabi
-
+          name: Install apt packages
+          command: 'sudo apt install p7zip-full gcc-arm-none-eabi binutils-arm-none-eabi'
       - run:
           name: Build Demo
           command: |
             cd ext
-            7z x fatfs-0.14_patched.7z
+            7za x fatfs-0.14_patched.7z
             cd ../demos/STM32/RT-STM32F103-STM3210E-EVAL-FATFS-USB
             make
-
       - store_artifacts:
           path: ./demos/STM32/RT-STM32F103-STM3210E-EVAL-FATFS-USB/build/ch.elf
 
