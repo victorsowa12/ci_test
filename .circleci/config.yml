@@ -10,6 +10,7 @@ jobs:
           name: Install dependencies
           command: |
             conda create -n xMoonJelly_fw
+            source activate xMoonJelly_fw
 
 workflows:
   version: 2.1
