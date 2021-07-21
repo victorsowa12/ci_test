@@ -19,4 +19,11 @@ jobs:
       - store_artifacts:
           path: ./demos/STM32/RT-STM32F103-STM3210E_EVAL-FATFS-USB/build/ch.elf
 
+workflows:
+  version: 2.1
+  build_and_test:
+    jobs:
+      - build
+
+
           
