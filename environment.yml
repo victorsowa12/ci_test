@@ -9,7 +9,7 @@ dependencies:
   - make=4.2.1
   - ninja=1.10.1
   - python=3.8.6
-  - pyserial=3.5
+  - pyserial==3.5
   - pip
   - pip:
       - memfault-cli==0.2.0
