@@ -11,6 +11,7 @@ jobs:
           command: |
             conda create -n xMoonJelly_fw
             source activate xMoonJelly_fw
+            conda env update -f environment.yml
 
 workflows:
   version: 2.1
