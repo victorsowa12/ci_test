@@ -9,11 +9,7 @@ jobs:
       - run:
           name: Install dependencies
           command: |
-            conda env create -f environment.yml
-      - run: 
-          name: Run Tests
-          command: |
-            source activate xMoonJelly_fw
+            conda create -n xMoonJelly_fw
 
 workflows:
   version: 2.1
