@@ -14,7 +14,7 @@ jobs:
           command: |
             cd ext
             7za u fatfs-0.14_patched.7z
-            cd ../demos/STM32/RT-STM32F103-STM3210E-EVAL-FATFS-USB
+            cd ../demos/STM32/RT-STM32F103-STM3210E_EVAL-FATFS-USB
             make
       - store_artifacts:
           path: ./demos/STM32/RT-STM32F103-STM3210E-EVAL-FATFS-USB/build/ch.elf
