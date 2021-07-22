@@ -10,6 +10,7 @@ jobs:
           name: Install dependencies
           command: |
             conda create -n xMoonJelly_fw
+            conda init zsh
             conda activate xMoonJelly_fw
             conda env -f update environment.yml
             conda list
