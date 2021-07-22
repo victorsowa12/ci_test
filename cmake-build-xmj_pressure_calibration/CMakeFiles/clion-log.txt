@@ -1,0 +1,13 @@
+/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/xpack-openocd/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -DCMAKE_TOOLCHAIN_FILE=cmake/arm-none-eabi-gcc.cmake -DCOMPILER_PATH=/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/xpack-openocd/bin/ -DBSP=xMoonJelly_v0_pressure_calibration -DAPP=xmj_pressure_calibration -G "CodeBlocks - Unix Makefiles" /Users/victorsowa/xMoonJelly_fw
+-- Cross Compiling - Building Firmware
+-- CPM: adding package memfaultsdk@0.16.1 (0.16.1)
+-- Saving to /Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/version.c
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_TOOLCHAIN_FILE
+
+
+-- Build files have been written to: /Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration

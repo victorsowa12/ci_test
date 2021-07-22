@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="xMoonJelly"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\src\;CMake Files\src\bsp\;CMake Files\src\bsp\xMoonJelly_v0_pressure_calibration\;CMake Files\src\apps\;CMake Files\src\apps\xmj_pressure_calibration\;CMake Files\src\third_party\;CMake Files\src\third_party\FreeRTOS\;CMake Files\src\third_party\fatfs\;CMake Files\cmake-build-xmj_pressure_calibration\;CMake Files\cmake-build-xmj_pressure_calibration\_deps\;CMake Files\cmake-build-xmj_pressure_calibration\_deps\memfaultsdk-src\;CMake Files\cmake-build-xmj_pressure_calibration\_deps\memfaultsdk-src\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dfu_flash">
+				<Option working_dir="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 dfu_flash"/>
+					<CompileFile command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="debug">
+				<Option working_dir="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 debug"/>
+					<CompileFile command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="memfault_upload">
+				<Option working_dir="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 memfault_upload"/>
+					<CompileFile command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="debug_reset">
+				<Option working_dir="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 debug_reset"/>
+					<CompileFile command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xMoonJelly-xmj_pressure_calibration.elf">
+				<Option output="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/xMoonJelly-xmj_pressure_calibration.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_FULL_LL_DRIVER"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32L496xx"/>
+					<Add option="-DBSP_XMOONJELLY_V0"/>
+					<Add option="-DNO_IRIDIUM"/>
+					<Add option="-DBUILD_DEBUG"/>
+					<Add option="-DAPP_NAME=&quot;xMoonJelly-xmj_pressure_calibration&quot;"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Core/Inc"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/CMSIS/Device/ST/STM32L4xx/Include"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/fatfs"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/USB_DEVICE/App"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/USB_DEVICE/Target"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/apps/xmj_pressure_calibration"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/apps/xmj_pressure_calibration/cpp"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/third_party/FreeRTOS/Source/include"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/third_party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/third_party/fatfs/src"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/cli"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/common"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/debug"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/abstract"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/protected"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/errors"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/gps_signal_processing"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/iridium"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/memfault"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/messages"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/messages/abstract"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/messages/message_structures"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/messages/nibble_structures"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/messages/nibbles"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/nmea"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/orchestrator"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/ubx"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/WSLib"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/third_party/FreeRTOS-Plus-CLI"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/third_party/printf"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/include"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/ports/freertos/include"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/ports/include"/>
+					<Add directory="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/xpack-openocd/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"/>
+					<Add directory="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/xpack-openocd/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"/>
+					<Add directory="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/xpack-openocd/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"/>
+					<Add directory="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/xpack-openocd/bin/../lib/gcc/arm-none-eabi/9.3.1/include"/>
+					<Add directory="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/xpack-openocd/bin/../lib/gcc/arm-none-eabi/9.3.1/include-fixed"/>
+					<Add directory="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/xpack-openocd/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 xMoonJelly-xmj_pressure_calibration.elf"/>
+					<CompileFile command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xMoonJelly-xmj_pressure_calibration.elf/fast">
+				<Option output="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/xMoonJelly-xmj_pressure_calibration.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_FULL_LL_DRIVER"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32L496xx"/>
+					<Add option="-DBSP_XMOONJELLY_V0"/>
+					<Add option="-DNO_IRIDIUM"/>
+					<Add option="-DBUILD_DEBUG"/>
+					<Add option="-DAPP_NAME=&quot;xMoonJelly-xmj_pressure_calibration&quot;"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Core/Inc"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/CMSIS/Device/ST/STM32L4xx/Include"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/CMSIS/Include"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/fatfs"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/USB_DEVICE/App"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/USB_DEVICE/Target"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/apps/xmj_pressure_calibration"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/apps/xmj_pressure_calibration/cpp"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/third_party/FreeRTOS/Source/include"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/third_party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/third_party/fatfs/src"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/cli"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/common"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/debug"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/abstract"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/protected"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/errors"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/gps_signal_processing"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/iridium"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/memfault"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/messages"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/messages/abstract"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/messages/message_structures"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/messages/nibble_structures"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/messages/nibbles"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/nmea"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/orchestrator"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/ubx"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/lib/WSLib"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/third_party/FreeRTOS-Plus-CLI"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src/third_party/printf"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/include"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/src"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/ports/freertos/include"/>
+					<Add directory="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/ports/include"/>
+					<Add directory="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/xpack-openocd/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1"/>
+					<Add directory="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/xpack-openocd/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/arm-none-eabi"/>
+					<Add directory="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/xpack-openocd/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include/c++/9.3.1/backward"/>
+					<Add directory="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/xpack-openocd/bin/../lib/gcc/arm-none-eabi/9.3.1/include"/>
+					<Add directory="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/xpack-openocd/bin/../lib/gcc/arm-none-eabi/9.3.1/include-fixed"/>
+					<Add directory="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/xpack-openocd/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 xMoonJelly-xmj_pressure_calibration.elf/fast"/>
+					<CompileFile command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="flash">
+				<Option working_dir="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 flash"/>
+					<CompileFile command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="eng_release">
+				<Option working_dir="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 eng_release"/>
+					<CompileFile command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="release">
+				<Option working_dir="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 release"/>
+					<CompileFile command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/Users/victorsowa/miniconda3/envs/xMoonJelly_fw/bin/make -j8 -f &quot;/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/core/src/arch_arm_cortex_m.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/core/src/memfault_batched_events.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/core/src/memfault_build_id.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/core/src/memfault_core_utils.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/core/src/memfault_data_export.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/core/src/memfault_data_packetizer.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/core/src/memfault_data_source_rle.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/core/src/memfault_event_storage.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/core/src/memfault_log.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/core/src/memfault_ram_reboot_info_tracking.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/core/src/memfault_reboot_tracking_serializer.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/core/src/memfault_sdk_assert.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/core/src/memfault_serializer_helper.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/core/src/memfault_trace_event.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/http/src/memfault_http_client.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/http/src/memfault_http_utils.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/http/src/memfault_root_certs_der.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/metrics/src/memfault_metrics.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/metrics/src/memfault_metrics_serializer.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/panics/src/memfault_coredump.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/panics/src/memfault_coredump_regions_armv7.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/panics/src/memfault_coredump_sdk_regions.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/panics/src/memfault_coredump_storage_debug.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/panics/src/memfault_coredump_utils.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/panics/src/memfault_fault_handling_aarch64.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/panics/src/memfault_fault_handling_arm.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/util/src/memfault_base64.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/util/src/memfault_chunk_transport.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/util/src/memfault_circular_buffer.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/util/src/memfault_crc16_ccitt.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/util/src/memfault_minimal_cbor.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/util/src/memfault_rle.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/components/util/src/memfault_varint.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/ports/freertos/src/memfault_core_freertos.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/ports/freertos/src/memfault_freertos_ram_regions.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/ports/freertos/src/memfault_metrics_freertos.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/ports/freertos/src/memfault_panics_freertos.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/ports/stm32cube/l4/flash_coredump_storage.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/ports/stm32cube/l4/rcc_reboot_tracking.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/version.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/src/version.c.rule">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/apps/xmj_pressure_calibration/app_main.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/apps/xmj_pressure_calibration/error_config.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/apps/xmj_pressure_calibration/error_config.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/apps/xmj_pressure_calibration/sensors.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/apps/xmj_pressure_calibration/sensors.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Core/Src/adc.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Core/Src/dma.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Core/Src/gpio.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Core/Src/i2c.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Core/Src/iwdg.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Core/Src/main.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Core/Src/sai.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Core/Src/sdmmc.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Core/Src/spi.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Core/Src/stm32l4xx_hal_msp.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Core/Src/stm32l4xx_hal_timebase_tim.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Core/Src/stm32l4xx_it.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Core/Src/system_stm32l4xx.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Core/Src/usart.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_adc_ex.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_dma_ex.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ex.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_iwdg.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pcd_ex.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sai.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sai_ex.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_sd_ex.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_spi_ex.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_dma.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_exti.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_gpio.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_lpuart.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_rcc.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_rtc.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_sdmmc.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_usart.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_usb.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_ll_utils.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/USB_DEVICE/App/usb_device.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/USB_DEVICE/App/usb_device.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/USB_DEVICE/App/usbd_cdc_if.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/USB_DEVICE/App/usbd_cdc_if.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/USB_DEVICE/App/usbd_desc.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/USB_DEVICE/App/usbd_desc.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/USB_DEVICE/Target/usbd_conf.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/USB_DEVICE/Target/usbd_conf.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/USB_DEVICE/usb_static_malloc.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/bsp.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/bsp.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/bsp_pins.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/fatfs/bsp_driver_sd.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/fatfs/bsp_driver_sd.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/fatfs/sd_diskio.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/fatfs/sd_diskio.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/startup_stm32l496xx.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/WSLib/OldDataAnalyzer/OldDataAnalyzer.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/WSLib/OldDataAnalyzer/OldDataAnalyzer.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/WSLib/OldGPSDataFilter/OldGPSDataFilter.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/WSLib/OldGPSDataFilter/OldGPSDataFilter.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/cli/cli.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/cli/cli.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/avgSampler.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/avgSampler.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/bitpacker.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/bitpacker.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/bootloader_helper.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/bootloader_helper.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/device_info.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/device_info.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/error_manager.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/error_manager.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/freertos_cpp_overrides.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/freertos_support.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/gps.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/gps.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/gps_util.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/gps_util.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/libc_overrides.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/log.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/log.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/lpm.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/lpm.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/lptimTick.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/messageSender.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/messageSender.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/powermon.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/powermon.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/rain.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/rain.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/reset_reason.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/reset_reason.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/sensor_hub.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/sensor_hub.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/serial.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/serial.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/serial_console.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/serial_console.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/sysMon.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/sysMon.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/tokenize.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/tokenize.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/util.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/util.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/watchdog.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/watchdog.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/wavFile.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/common/wavFile.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/debug/debug.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/debug/debug.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/debug/debug_datafeed.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/debug/debug_datafeed.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/debug/debug_error.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/debug/debug_error.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/debug/debug_gpio.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/debug/debug_gpio.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/debug/debug_log.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/debug/debug_log.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/debug/debug_nibble.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/debug/debug_nibble.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/debug/debug_orchestrator.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/debug/debug_orchestrator.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/debug/debug_rtc.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/debug/debug_rtc.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/debug/debug_sd.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/debug/debug_sd.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/debug/debug_sys.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/debug/debug_sys.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/debug/debug_uart.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/debug/debug_uart.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/TSYS01.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/TSYS01.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/abstract/abstract_i2c.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/abstract/abstract_i2c.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/bq24192.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/bq24192.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/bsp_driver_sd_override.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/htu21d.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/htu21d.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/ina3221.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/ina3221.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/mcp4xxx.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/mcp4xxx.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/mic.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/mic.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/ms5803.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/ms5803.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/pca9535.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/pca9535.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/protected/protected_i2c.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/protected/protected_i2c.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/protected/protected_spi.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/protected/protected_spi.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/sd.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/sd.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/stm32_adc.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/stm32_io.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/stm32_io.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/stm32_rtc.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/stm32_rtc.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/thermistor.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/drivers/thermistor.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/errors/abstract/abstract_error_state.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/errors/abstract/abstract_error_state.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/gps_signal_processing/GpsDataFilter/GpsDataFilter.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/gps_signal_processing/GpsDataFilter/GpsDataFilter.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/gps_signal_processing/MotionSpectraAnalyzer/MotionSpectraAnalyzer.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/gps_signal_processing/MotionSpectraAnalyzer/MotionSpectraAnalyzer.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/gps_signal_processing/MotionSpectraGenerator/MotionSpectraGenerator.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/gps_signal_processing/MotionSpectraGenerator/MotionSpectraGenerator.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/gps_signal_processing/gps_signal_processing.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/gps_signal_processing/gps_signal_processing.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/iridium/960x.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/iridium/960x.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/iridium/960x_parsers.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/iridium/960x_parsers.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/memfault/memfault_platform_core.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/memfault/memfault_platform_core.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/messages/nibbles/message_nibble.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/messages/nibbles/message_nibble.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/nmea/nmea.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/nmea/nmea.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/nmea/nmea_pubx00.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/nmea/nmea_pubx00.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/nmea/nmea_pubx03.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/nmea/nmea_pubx03.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/nmea/nmea_rmc.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/nmea/nmea_rmc.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/nmea/nmea_txt.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/nmea/nmea_txt.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/orchestrator/fullmoon.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/orchestrator/fullmoon.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/orchestrator/fullmoonRuntimeStats.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/orchestrator/fullmoonRuntimeStats.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/orchestrator/orchestrator.cpp">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/orchestrator/orchestrator.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/ubx/ubx.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/ubx/ubx.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/ubx/ubx_packets.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/lib/ubx/ubx_packets.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/FreeRTOS-Plus-CLI/FreeRTOS_CLI.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/FreeRTOS-Plus-CLI/FreeRTOS_CLI.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/FreeRTOS/Source/croutine.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/FreeRTOS/Source/event_groups.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/FreeRTOS/Source/list.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/FreeRTOS/Source/queue.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/FreeRTOS/Source/tasks.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/FreeRTOS/Source/timers.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/fatfs/src/diskio.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/fatfs/src/diskio.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/fatfs/src/ff.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/fatfs/src/ff.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/fatfs/src/ff_gen_drv.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/fatfs/src/ff_gen_drv.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/fatfs/src/ffsystem.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/fatfs/src/ffunicode.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/printf/printf.c">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/printf/printf.h">
+			<Option target="xMoonJelly-xmj_pressure_calibration.elf"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/BuildOptions.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake/CPM.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake/CheckAndApplyFlags.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake/arm-none-eabi-gcc.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/bsp/xMoonJelly_v0_pressure_calibration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bsp\xMoonJelly_v0_pressure_calibration\"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/apps/xmj_pressure_calibration/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\apps\xmj_pressure_calibration\"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/FreeRTOS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\third_party\FreeRTOS\"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/src/third_party/fatfs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\third_party\fatfs\"/>
+		</Unit>
+		<Unit filename="/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-src/cmake/Memfault.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-xmj_pressure_calibration\_deps\memfaultsdk-src\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-subbuild/CMakeFiles/memfaultsdk-populate"
+		},
+		{
+			"file" : "/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-subbuild/CMakeFiles/memfaultsdk-populate.rule"
+		},
+		{
+			"file" : "/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-subbuild/CMakeFiles/memfaultsdk-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-subbuild/memfaultsdk-populate-prefix/src/memfaultsdk-populate-stamp/memfaultsdk-populate-install.rule"
+		},
+		{
+			"file" : "/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-subbuild/memfaultsdk-populate-prefix/src/memfaultsdk-populate-stamp/memfaultsdk-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-subbuild/memfaultsdk-populate-prefix/src/memfaultsdk-populate-stamp/memfaultsdk-populate-download.rule"
+		},
+		{
+			"file" : "/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-subbuild/memfaultsdk-populate-prefix/src/memfaultsdk-populate-stamp/memfaultsdk-populate-update.rule"
+		},
+		{
+			"file" : "/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-subbuild/memfaultsdk-populate-prefix/src/memfaultsdk-populate-stamp/memfaultsdk-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-subbuild/memfaultsdk-populate-prefix/src/memfaultsdk-populate-stamp/memfaultsdk-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-subbuild/memfaultsdk-populate-prefix/src/memfaultsdk-populate-stamp/memfaultsdk-populate-build.rule"
+		},
+		{
+			"file" : "/Users/victorsowa/xMoonJelly_fw/cmake-build-xmj_pressure_calibration/_deps/memfaultsdk-subbuild/memfaultsdk-populate-prefix/src/memfaultsdk-populate-stamp/memfaultsdk-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"memfaultsdk-populate"
+		],
+		"name" : "memfaultsdk-populate"
+	}
+}
