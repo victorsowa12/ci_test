@@ -14,8 +14,8 @@ jobs:
           name: set up environment
           command: |
             conda init zsh
-            conda activate xMoonJelly_fw
             source ~/.zshrc
+            source activate xMoonJelly_fw
             conda list
       - run: 
           name: python test
