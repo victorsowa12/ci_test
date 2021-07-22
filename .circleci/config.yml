@@ -16,8 +16,7 @@ jobs:
             conda list
             python conda_python_test.py
             pwd
-            cd /cmake-build-xmj_pressure_calibration
-            pwd      
+            ls
 
 workflows:
   version: 2.1
