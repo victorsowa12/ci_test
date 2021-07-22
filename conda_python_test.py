@@ -1,3 +1,3 @@
-import serial
+# import serial
 
 print('it worked')
