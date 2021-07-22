@@ -7,9 +7,12 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install dependencies, set up environment, and run test
+          name: create environment
           command: |
             conda env create -n xMoonJelly_fw --file environment.yml
+      - run:
+          name: set up conda in new shell and make build
+          command: |
             conda init zsh
             source ~/.zshrc
             conda activate xMoonJelly_fw
@@ -18,7 +21,7 @@ jobs:
             pwd
             ls
             cd demos/STM32/RT-STM32F103-STM3210E_EVAL-FATFS-USB
-            make
+            make -j
 
 workflows:
   version: 2.1
