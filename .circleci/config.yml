@@ -6,20 +6,18 @@ jobs:
       
     steps:
       - checkout
-      # - run:
-      #     name: Install dependencies
-      #     command: |
-      #       conda env create -n xMoonJelly_fw --file environment.yml
-      # - run: 
-      #     name: set up environment
-      #     command: |
-      #       conda init zsh
-      #       source ~/.zshrc
-      #       source activate xMoonJelly_fw
-      #       conda list
+      - run:
+          name: Install dependencies
+          command: |
+            conda env create -n xMoonJelly_fw --file environment.yml
       - run: 
-          name: python test
-          command: python conda_python_test.py      
+          name: set up environment
+          command: |
+            conda init zsh
+            source ~/.zshrc
+            source activate xMoonJelly_fw
+            conda list
+            python conda_python_test.py      
 
 workflows:
   version: 2.1
