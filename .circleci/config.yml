@@ -11,7 +11,7 @@ jobs:
           command: |
             conda create -n xMoonJelly_fw
             source activate xMoonJelly_fw
-            conda list
+            # conda list
 
       - run: python conda_python_test.py      
 
