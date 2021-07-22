@@ -10,7 +10,7 @@ jobs:
           name: Install dependencies
           command: |
             conda create -n xMoonJelly_fw
-            conda activate xMoonJelly_fw
+            source activate xMoonJelly_fw
             conda list
 
       - run: python conda_python_test.py      
